@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<MsInfo xmlns:t="test" t:test="1">
+<Channels xmlns:t="test" t:test="1">
 	<Bandwidth>6</Bandwidth>
 
 	<Network Frequency="593000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="34" Name="CTS">
@@ -25,4 +25,4 @@
 		<Stream PID="0x13B0" Active="1" Type="PMT" />
 	</Service>
 	</Network>
-</MsInfo>
+</Channels>
