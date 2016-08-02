@@ -53,19 +53,19 @@
 	</Network>
 
 	<Network Frequency="545000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="26" Name="PTS">
-	<Service serviceId="201" name="PTS2">
+	<Service serviceId="201" name="公視二台">
 		<Stream PID="2011" Active="1" Type="H264 Video" />
 		<Stream PID="2012" Active="1" Type="AAC Audio" />
 		<Stream PID="2013" Active="1" Type="AAC Audio" />
 		<Stream PID="0x7DA" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="202" name="PTS3">
+	<Service serviceId="202" name="公視三台">
 		<Stream PID="2021" Active="1" Type="H264 Video" />
 		<Stream PID="2022" Active="1" Type="AAC Audio" />
 		<Stream PID="2023" Active="1" Type="AAC Audio" />
 		<Stream PID="0x7E4" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="203" name="PTS4">
+	<Service serviceId="203" name="原住民電視台">
 		<Stream PID="2031" Active="1" Type="H264 Video" />
 		<Stream PID="2032" Active="1" Type="AAC Audio" />
 		<Stream PID="2033" Active="1" Type="AAC Audio" />
@@ -105,7 +105,7 @@
 		<Stream PID="4003" Active="1" Type="AAC Audio" />
 		<Stream PID="0x20" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="401" name="TTV2">
+	<Service serviceId="401" name="台視2">
 		<Stream PID="4011" Active="1" Type="MPEG2 Video" />
 		<Stream PID="4012" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x21" Active="1" Type="PMT" />
@@ -124,7 +124,7 @@
 	</Network>
 
 	<Network Frequency="569000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="30" Name="PTS">
-	<Service serviceId="200" name="PTS1">
+	<Service serviceId="200" name="公視HD">
 		<Stream PID="2001" Active="1" Type="H264 Video" />
 		<Stream PID="2002" Active="1" Type="AAC Audio" />
 		<Stream PID="2003" Active="1" Type="AAC Audio" />
