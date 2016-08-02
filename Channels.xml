@@ -1,4 +1,5 @@
-<Bandwidth>6</Bandwidth>
+<Channels>
+	<Bandwidth>6</Bandwidth>
 
 	<Network Frequency="593000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="34" Name="CTS">
 	<Service serviceId="501" name="CTS_1">
@@ -130,3 +131,4 @@
 		<Stream PID="0x7D0" Active="1" Type="PMT" />
 	</Service>
 	</Network>
+</Channels>
