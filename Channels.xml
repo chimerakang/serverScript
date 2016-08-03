@@ -48,13 +48,13 @@
 		<Stream PID="2003" Active="1" Type="AAC Audio" />
 		<Stream PID="0x7D0" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="203" name="客家電視HD">
-		<Stream PID="2031" Active="1" Type="H264 Video" />
-		<Stream PID="2032" Active="1" Type="AAC Audio" />
-		<Stream PID="2033" Active="1" Type="AAC Audio" />
+	<Service serviceId="205" name="原民台電視HD">
+		<Stream PID="2051" Active="1" Type="H264 Video" />
+		<Stream PID="2052" Active="1" Type="AAC Audio" />
+		<Stream PID="2053" Active="1" Type="AAC Audio" />
 		<Stream PID="0x7EE" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="204" name="原民台電視HD">
+	<Service serviceId="204" name="客家電視HD">
 		<Stream PID="2041" Active="1" Type="H264 Video" />
 		<Stream PID="2042" Active="1" Type="AAC Audio" />
 		<Stream PID="2043" Active="1" Type="AAC Audio" />
