@@ -1,96 +1,24 @@
 <Channels>
 	<Bandwidth>6</Bandwidth>
 
-	<Network Frequency="593000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="34" Name="CTS">
-	<Service serviceId="501" name="CTS_1">
-		<Stream PID="5011" Active="1" Type="H264 Video" />
-		<Stream PID="5012" Active="1" Type="AAC Audio" />
-		<Stream PID="5013" Active="1" Type="AAC Audio" />
-		<Stream PID="0x1392" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="502" name="CTS_2">
-		<Stream PID="5021" Active="1" Type="MPEG2 Video" />
-		<Stream PID="5022" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0x139C" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="503" name="CTS_3">
-		<Stream PID="5031" Active="1" Type="MPEG2 Video" />
-		<Stream PID="5032" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0x13A6" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="504" name="CTS_4">
-		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
-		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0x13B0" Active="1" Type="PMT" />
-	</Service>
-	</Network>
-	
-	<Network Frequency="557000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="28" Name="FTV">
-	<Service serviceId="300" name="FTV_1">
-		<Stream PID="3001" Active="1" Type="MPEG2 Video" />
-		<Stream PID="3002" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="3003" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0xBE0" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="301" name="FTV_2">
-		<Stream PID="3011" Active="1" Type="MPEG2 Video" />
-		<Stream PID="3012" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="3013" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0xBB8" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="302" name="FTV_3">
-		<Stream PID="3021" Active="1" Type="MPEG2 Video" />
-		<Stream PID="3022" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="3023" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0xBC2" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="304" name="FTV_4">
-		<Stream PID="3041" Active="1" Type="H264 Video" />
-		<Stream PID="3042" Active="1" Type="AAC Audio" />
-		<Stream PID="3043" Active="1" Type="AAC Audio" />
-		<Stream PID="0xBD6" Active="1" Type="PMT" />
-	</Service>
-	</Network>
-
-	<Network Frequency="545000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="26" Name="PTS">
-	<Service serviceId="201" name="公視二台">
-		<Stream PID="2011" Active="1" Type="H264 Video" />
-		<Stream PID="2012" Active="1" Type="AAC Audio" />
-		<Stream PID="2013" Active="1" Type="AAC Audio" />
-		<Stream PID="0x7DA" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="202" name="公視三台">
-		<Stream PID="2021" Active="1" Type="H264 Video" />
-		<Stream PID="2022" Active="1" Type="AAC Audio" />
-		<Stream PID="2023" Active="1" Type="AAC Audio" />
-		<Stream PID="0x7E4" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="203" name="原住民電視台">
-		<Stream PID="2031" Active="1" Type="H264 Video" />
-		<Stream PID="2032" Active="1" Type="AAC Audio" />
-		<Stream PID="2033" Active="1" Type="AAC Audio" />
-		<Stream PID="0x7EE" Active="1" Type="PMT" />
-	</Service>
-	</Network>
-
 	<Network Frequency="533000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="24" Name="CTV">
-	<Service serviceId="100" name="CTV1">
+	<Service serviceId="100" name="中視數位台">
 		<Stream PID="1001" Active="1" Type="MPEG2 Video" />
 		<Stream PID="1002" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="1003" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x3E8" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="101" name="CTV2">
+	<Service serviceId="101" name="中視新聞台">
 		<Stream PID="1011" Active="1" Type="MPEG2 Video" />
 		<Stream PID="1012" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x3F2" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="102" name="CTV3">
+	<Service serviceId="102" name="中視綜藝台">
 		<Stream PID="1021" Active="1" Type="MPEG2 Video" />
 		<Stream PID="1022" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x3FC" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="103" name="CTV4">
+	<Service serviceId="103" name="中視HD台">
 		<Stream PID="1031" Active="1" Type="H264 Video" />
 		<Stream PID="1032" Active="1" Type="AAC Audio" />
 		<Stream PID="1033" Active="1" Type="AAC Audio" />
@@ -98,28 +26,24 @@
 	</Service>
 	</Network>
 
-	<Network Frequency="581000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="32" Name="TTV">
-	<Service serviceId="400" name="TTV1">
-		<Stream PID="4001" Active="1" Type="H264 Video" />
-		<Stream PID="4002" Active="1" Type="AAC Audio" />
-		<Stream PID="4003" Active="1" Type="AAC Audio" />
-		<Stream PID="0x20" Active="1" Type="PMT" />
+	<Network Frequency="545000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="26" Name="PTS">
+	<Service serviceId="201" name="公共電視台">
+		<Stream PID="2011" Active="1" Type="H264 Video" />
+		<Stream PID="2012" Active="1" Type="AAC Audio" />
+		<Stream PID="2013" Active="1" Type="AAC Audio" />
+		<Stream PID="0x7DA" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="401" name="台視2">
-		<Stream PID="4011" Active="1" Type="MPEG2 Video" />
-		<Stream PID="4012" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0x21" Active="1" Type="PMT" />
+	<Service serviceId="202" name="公視二台">
+		<Stream PID="2021" Active="1" Type="H264 Video" />
+		<Stream PID="2022" Active="1" Type="AAC Audio" />
+		<Stream PID="2023" Active="1" Type="AAC Audio" />
+		<Stream PID="0x7E4" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="402" name="TTV3">
-		<Stream PID="4021" Active="1" Type="MPEG2 Video" />
-		<Stream PID="4022" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0x22" Active="1" Type="PMT" />
-	</Service>
-	<Service serviceId="403" name="TTV4">
-		<Stream PID="4031" Active="1" Type="MPEG2 Video" />
-		<Stream PID="4032" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="4033" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0xFBE" Active="1" Type="PMT" />
+	<Service serviceId="203" name="客家電視">
+		<Stream PID="2031" Active="1" Type="MPEG2 Video" />
+		<Stream PID="2032" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="2033" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x7EE" Active="1" Type="PMT" />
 	</Service>
 	</Network>
 
@@ -131,4 +55,82 @@
 		<Stream PID="0x7D0" Active="1" Type="PMT" />
 	</Service>
 	</Network>
+
+	<Network Frequency="557000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="28" Name="FTV">
+	<Service serviceId="300" name="民視綜合台">
+		<Stream PID="3001" Active="1" Type="MPEG2 Video" />
+		<Stream PID="3002" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="3003" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0xBE0" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="301" name="民視交通台">
+		<Stream PID="3011" Active="1" Type="MPEG2 Video" />
+		<Stream PID="3012" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="3013" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0xBB8" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="302" name="民視新聞台">
+		<Stream PID="3021" Active="1" Type="MPEG2 Video" />
+		<Stream PID="3022" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="3023" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0xBC2" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="304" name="民視四季台">
+		<Stream PID="3041" Active="1" Type="H264 Video" />
+		<Stream PID="3042" Active="1" Type="AAC Audio" />
+		<Stream PID="3043" Active="1" Type="AAC Audio" />
+		<Stream PID="0xBD6" Active="1" Type="PMT" />
+	</Service>
+	</Network>
+
+	<Network Frequency="581000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="32" Name="TTV">
+	<Service serviceId="400" name="臺灣電視台">
+		<Stream PID="4001" Active="1" Type="H264 Video" />
+		<Stream PID="4002" Active="1" Type="AAC Audio" />
+		<Stream PID="4003" Active="1" Type="AAC Audio" />
+		<Stream PID="0x20" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="401" name="台視新聞台">
+		<Stream PID="4011" Active="1" Type="MPEG2 Video" />
+		<Stream PID="4012" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x21" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="402" name="台視財經台">
+		<Stream PID="4021" Active="1" Type="MPEG2 Video" />
+		<Stream PID="4022" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x22" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="403" name="台視綜合台">
+		<Stream PID="4031" Active="1" Type="MPEG2 Video" />
+		<Stream PID="4032" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="4033" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0xFBE" Active="1" Type="PMT" />
+	</Service>
+	</Network>
+
+	<Network Frequency="593000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="34" Name="CTS">
+	<Service serviceId="501" name="華視HD頻道">
+		<Stream PID="5011" Active="1" Type="H264 Video" />
+		<Stream PID="5012" Active="1" Type="AAC Audio" />
+		<Stream PID="5013" Active="1" Type="AAC Audio" />
+		<Stream PID="0x1392" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="502" name="華視教育文化頻道">
+		<Stream PID="5021" Active="1" Type="MPEG2 Video" />
+		<Stream PID="5022" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x139C" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="503" name="華視新聞資訊台">
+		<Stream PID="5031" Active="1" Type="MPEG2 Video" />
+		<Stream PID="5032" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x13A6" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="504" name="華視綜合娛樂台">
+		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
+		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x13B0" Active="1" Type="PMT" />
+	</Service>
+	</Network>
+
+
 </Channels>
