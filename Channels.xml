@@ -2,10 +2,10 @@
 	<Bandwidth>6</Bandwidth>
 
 	<Network Frequency="533000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="24" Name="CTV">
-	<Service serviceId="100" name="中視數位台">
-		<Stream PID="1001" Active="1" Type="MPEG2 Video" />
-		<Stream PID="1002" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="1003" Active="1" Type="MPEG2 Audio" />
+	<Service serviceId="100" name="中視HD台">
+		<Stream PID="1001" Active="1" Type="H264 Video" />
+		<Stream PID="1002" Active="1" Type="AAC Audio" />
+		<Stream PID="1003" Active="1" Type="AAC Audio" />
 		<Stream PID="0x3E8" Active="1" Type="PMT" />
 	</Service>
 	<Service serviceId="101" name="中視新聞台">
@@ -18,10 +18,10 @@
 		<Stream PID="1022" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x3FC" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="103" name="中視HD台">
-		<Stream PID="1031" Active="1" Type="H264 Video" />
-		<Stream PID="1032" Active="1" Type="AAC Audio" />
-		<Stream PID="1033" Active="1" Type="AAC Audio" />
+	<Service serviceId="103" name="中視菁采台">
+		<Stream PID="1031" Active="1" Type="MPEG2 Video" />
+		<Stream PID="1032" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="1033" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x406" Active="1" Type="PMT" />
 	</Service>
 	</Network>
