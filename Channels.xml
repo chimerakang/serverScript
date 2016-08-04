@@ -136,8 +136,34 @@
 	<Service serviceId="504" name="華視綜合娛樂台">
 		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
 		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="504ˇ" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x13B0" Active="1" Type="PMT" />
 	</Service>
+		<Service serviceId="505" name="華視綜合娛樂台2">
+		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
+		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="504ˇ" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x13B0" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="506" name="華視綜合娛樂台3">
+		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
+		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="504ˇ" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x13B0" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="507" name="華視綜合娛樂台4">
+		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
+		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="504ˇ" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x13B0" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="508" name="華視綜合娛樂台5">
+		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
+		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="504ˇ" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x13B0" Active="1" Type="PMT" />
+	</Service>
+
 	</Network>
 
 
