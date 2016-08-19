@@ -2,11 +2,11 @@
 	<Bandwidth>6</Bandwidth>
 
 	<Network Frequency="533000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="24" Name="CTV">
-	<Service serviceId="102" name="中視數位台">
-		<Stream PID="1021" Active="1" Type="MPEG2 Video" />
-		<Stream PID="1022" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="1023" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0x3FC" Active="1" Type="PMT" />
+	<Service serviceId="100" name="中視 HD">
+		<Stream PID="1001" Active="1" Type="H264 Video" />
+		<Stream PID="1002" Active="1" Type="AAC Audio" />
+		<Stream PID="1003" Active="1" Type="AAC Audio" />
+		<Stream PID="0x3E8" Active="1" Type="PMT" />
 	</Service>
 	<Service serviceId="101" name="中視新聞台">
 		<Stream PID="1011" Active="1" Type="MPEG2 Video" />
@@ -14,7 +14,13 @@
 		<Stream PID="1013" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x3F2" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="103" name="中視綜藝台">
+	<Service serviceId="102" name="中視經典台">
+		<Stream PID="1021" Active="1" Type="MPEG2 Video" />
+		<Stream PID="1022" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="1023" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x3FC" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="103" name="中視菁采台">
 		<Stream PID="1031" Active="1" Type="MPEG2 Video" />
 		<Stream PID="1032" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="1033" Active="1" Type="MPEG2 Audio" />
@@ -23,13 +29,13 @@
 	</Network>
 
 	<Network Frequency="545000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="26" Name="PTS">
-	<Service serviceId="201" name="公共電視PTS">
+	<Service serviceId="201" name="公共 HD">
 		<Stream PID="2011" Active="1" Type="H264 Video" />
 		<Stream PID="2012" Active="1" Type="AAC Audio" />
 		<Stream PID="2013" Active="1" Type="AAC Audio" />
 		<Stream PID="0x7DA" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="202" name="公共電視DIMO">
+	<Service serviceId="202" name="公視2 HD">
 		<Stream PID="2021" Active="1" Type="H264 Video" />
 		<Stream PID="2022" Active="1" Type="AAC Audio" />
 		<Stream PID="2023" Active="1" Type="AAC Audio" />
@@ -38,7 +44,19 @@
 	</Network>
 
 	<Network Frequency="569000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="30" Name="PTS2">
-	<Service serviceId="204" name="客家電視HTV">
+	<Service serviceId="200" name="公視3 HD">
+		<Stream PID="2001" Active="1" Type="H264 Video" />
+		<Stream PID="2002" Active="1" Type="AAC Audio" />
+		<Stream PID="2003" Active="1" Type="AAC Audio" />
+		<Stream PID="0x7D0" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="205" name="原民台電視 HD">
+		<Stream PID="2051" Active="1" Type="H264 Video" />
+		<Stream PID="2052" Active="1" Type="AAC Audio" />
+		<Stream PID="2053" Active="1" Type="AAC Audio" />
+		<Stream PID="0x7EE" Active="1" Type="PMT" />
+	</Service>
+	<Service serviceId="204" name="客家電視 HD">
 		<Stream PID="2041" Active="1" Type="H264 Video" />
 		<Stream PID="2042" Active="1" Type="AAC Audio" />
 		<Stream PID="2043" Active="1" Type="AAC Audio" />
@@ -47,13 +65,13 @@
 	</Network>
 
 	<Network Frequency="557000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="28" Name="FTV">
-	<Service serviceId="300" name="民視綜合台">
+	<Service serviceId="300" name="民視 HD">
 		<Stream PID="3001" Active="1" Type="MPEG2 Video" />
 		<Stream PID="3002" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="3003" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0xBE0" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="301" name="民視交通台">
+	<Service serviceId="301" name="交通電視台">
 		<Stream PID="3011" Active="1" Type="MPEG2 Video" />
 		<Stream PID="3012" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="3013" Active="1" Type="MPEG2 Audio" />
@@ -65,9 +83,21 @@
 		<Stream PID="3023" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0xBC2" Active="1" Type="PMT" />
 	</Service>
+	<Service serviceId="304" name="民視四季台">
+		<Stream PID="3041" Active="1" Type="H264 Video" />
+		<Stream PID="3042" Active="1" Type="AAC Audio" />
+		<Stream PID="3043" Active="1" Type="AAC Audio" />
+		<Stream PID="0xBD6" Active="1" Type="PMT" />
+	</Service>
 	</Network>
 
 	<Network Frequency="581000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="32" Name="TTV">
+	<Service serviceId="400" name="台視 HD">
+		<Stream PID="4001" Active="1" Type="H264 Video" />
+		<Stream PID="4002" Active="1" Type="AAC Audio" />
+		<Stream PID="4003" Active="1" Type="AAC Audio" />
+		<Stream PID="0x20" Active="1" Type="PMT" />
+	</Service>
 	<Service serviceId="401" name="台視新聞台">
 		<Stream PID="4011" Active="1" Type="MPEG2 Video" />
 		<Stream PID="4012" Active="1" Type="MPEG2 Audio" />
@@ -85,13 +115,13 @@
 		<Stream PID="0xFBE" Active="1" Type="PMT" />
 	</Service>
 	</Network>
-	
+
 	<Network Frequency="593000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="34" Name="CTS">
-	<Service serviceId="504" name="華視 CTS	">
-		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
-		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="504ˇ" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="0x13B0" Active="1" Type="PMT" />
+	<Service serviceId="501" name="華視 HD">
+		<Stream PID="5011" Active="1" Type="H264 Video" />
+		<Stream PID="5012" Active="1" Type="AAC Audio" />
+		<Stream PID="5013" Active="1" Type="AAC Audio" />
+		<Stream PID="0x1392" Active="1" Type="PMT" />
 	</Service>
 	<Service serviceId="502" name="華視教育文化台">
 		<Stream PID="5021" Active="1" Type="MPEG2 Video" />
@@ -103,61 +133,13 @@
 		<Stream PID="5032" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x13A6" Active="1" Type="PMT" />
 	</Service>
-	</Network>
-	
-	<Network Frequency="533000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="24" Name="CTV">
-	<Service serviceId="100" name="中視高畫質台">
-		<Stream PID="1001" Active="1" Type="H264 Video" />
-		<Stream PID="1002" Active="1" Type="AAC Audio" />
-		<Stream PID="1003" Active="1" Type="AAC Audio" />
-		<Stream PID="0x3E8" Active="1" Type="PMT" />
+	<Service serviceId="504" name="華視綜合娛樂台">
+		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
+		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="504ˇ" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="0x13B0" Active="1" Type="PMT" />
 	</Service>
-	</Network>
-	
-	<Network Frequency="569000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="30" Name="PTS2">
-	<Service serviceId="200" name="公視 Hi-HD">
-		<Stream PID="2001" Active="1" Type="H264 Video" />
-		<Stream PID="2002" Active="1" Type="AAC Audio" />
-		<Stream PID="2003" Active="1" Type="AAC Audio" />
-		<Stream PID="0x7D0" Active="1" Type="PMT" />
-	</Service>
-	</Network>
-	
-	<Network Frequency="557000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="28" Name="FTV">
-	<Service serviceId="304" name="民視高畫質台">
-		<Stream PID="3041" Active="1" Type="H264 Video" />
-		<Stream PID="3042" Active="1" Type="AAC Audio" />
-		<Stream PID="3043" Active="1" Type="AAC Audio" />
-		<Stream PID="0xBD6" Active="1" Type="PMT" />
-	</Service>
-	</Network>
 
-	<Network Frequency="581000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="32" Name="TTV">
-	<Service serviceId="400" name="台視高畫質台">
-		<Stream PID="4001" Active="1" Type="H264 Video" />
-		<Stream PID="4002" Active="1" Type="AAC Audio" />
-		<Stream PID="4003" Active="1" Type="AAC Audio" />
-		<Stream PID="0x20" Active="1" Type="PMT" />
-	</Service>
 	</Network>
-	
-	<Network Frequency="593000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="34" Name="CTS">
-	<Service serviceId="501" name="華視高畫質台">
-		<Stream PID="5011" Active="1" Type="H264 Video" />
-		<Stream PID="5012" Active="1" Type="AAC Audio" />
-		<Stream PID="5013" Active="1" Type="AAC Audio" />
-		<Stream PID="0x1392" Active="1" Type="PMT" />
-	</Service>
-	</Network>
-
-	<Network Frequency="569000" Bandwidth="6" OriginalNetworkId="0x209E" TransportStreamId="30" Name="PTS2">
-	<Service serviceId="205" name="原民台電視 HD">
-		<Stream PID="2051" Active="1" Type="H264 Video" />
-		<Stream PID="2052" Active="1" Type="AAC Audio" />
-		<Stream PID="2053" Active="1" Type="AAC Audio" />
-		<Stream PID="0x7EE" Active="1" Type="PMT" />
-	</Service>
-	</Network>
-
 
 </Channels>
