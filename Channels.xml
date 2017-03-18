@@ -138,14 +138,14 @@
 	<Service serviceId="504" name="國會頻道1台">
 		<Stream PID="5041" Active="1" Type="MPEG2 Video" />
 		<Stream PID="5042" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="504ˇ" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="5043ˇ" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x13B0" Active="1" Type="PMT" />
 	</Service>
 
 	<Service serviceId="505" name="國會頻道2台">
 		<Stream PID="5051" Active="1" Type="MPEG2 Video" />
 		<Stream PID="5052" Active="1" Type="MPEG2 Audio" />
-		<Stream PID="505ˇ" Active="1" Type="MPEG2 Audio" />
+		<Stream PID="5053ˇ" Active="1" Type="MPEG2 Audio" />
 		<Stream PID="0x13C0" Active="1" Type="PMT" />
 	</Service>
 
