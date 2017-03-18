@@ -123,14 +123,16 @@
 		<Stream PID="5013" Active="1" Type="AAC Audio" />
 		<Stream PID="0x1392" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="502" name="華視教育文化台">
-		<Stream PID="5021" Active="1" Type="MPEG2 Video" />
-		<Stream PID="5022" Active="1" Type="MPEG2 Audio" />
+	<Service serviceId="502" name="華視教育文化台HD">
+		<Stream PID="5021" Active="1" Type="H264 Video" />
+		<Stream PID="5022" Active="1" Type="AAC Audio" />
+		<Stream PID="5023" Active="1" Type="AAC Audio" />
 		<Stream PID="0x139C" Active="1" Type="PMT" />
 	</Service>
-	<Service serviceId="503" name="華視新聞資訊台">
-		<Stream PID="5031" Active="1" Type="MPEG2 Video" />
-		<Stream PID="5032" Active="1" Type="MPEG2 Audio" />
+	<Service serviceId="503" name="華視新聞資訊台HD">
+		<Stream PID="5031" Active="1" Type="H264 Video" />
+		<Stream PID="5032" Active="1" Type="AAC Audio" />
+		<Stream PID="5033" Active="1" Type="AAC Audio" />
 		<Stream PID="0x13A6" Active="1" Type="PMT" />
 	</Service>
 	<Service serviceId="504" name="華視綜合娛樂台">
