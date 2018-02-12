@@ -1,7 +1,7 @@
 {
-  "url":"https://hk.baldur.vip:29006/app/GzYnwcCkR.apk",
+  "url":"https://hk.baldur.vip:29006/app/aGYBpS3kR.apk",
   "bundle":"com.bomding.anderson",
   "download_path":"/com.bomding.anderson/downloads/",
-  "versionCode":0,
-  "updateMessage":"1. no update now"
+  "versionCode":2,
+  "updateMessage":"1. fix wifi bug. 2. show battery level."
 }
