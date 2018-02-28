@@ -12,15 +12,7 @@
         "bundle": "com.bomding.anderson",
         "download_path": "/com.bomding.anderson/downloads/",
         "versionCode": 3,
-        "suitableVersion": 2,
-        "updateMessage": "release version."
-    },
-    {
-        "url": "https://hk.baldur.vip:29006/app/SOzR8S3kg.apk",
-        "bundle": "com.bomding.anderson",
-        "download_path": "/com.bomding.anderson/downloads/",
-        "versionCode": 3,
         "suitableVersion": 1,
-        "updateMessage": "1. test retry download and resume download process."
+        "updateMessage": " for release version."
     }
 ]
