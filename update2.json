@@ -1,10 +1,10 @@
 [
     {
-        "url": "https://hk.baldur.vip:29006/app/6bIyCFCzR.apk",
+        "url": "https://hk.baldur.vip:29006/app/Za2z5J6kR.apk",
         "bundle": "com.bomding.anderson",
         "download_path": "/com.bomding.anderson/downloads/",
-        "versionCode": 4,
-        "suitableVersion": 3,
+        "versionCode": 3,
+        "suitableVersion": 2,
         "updateMessage": "1. test retry download and resume download process."
     },
     {
