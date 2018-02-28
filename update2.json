@@ -1,0 +1,17 @@
+{ [ {
+  "url":"https://hk.baldur.vip:29006/app/SOzR8S3kg.apk",
+  "bundle":"com.bomding.anderson",
+  "download_path":"/com.bomding.anderson/downloads/",
+  "versionCode":3,
+  "suitableVersion":3,
+  "updateMessage":"release version."
+ },
+ {
+  "url":"https://hk.baldur.vip:29006/app/dajdlfjals.apk",
+  "bundle":"com.bomding.anderson",
+  "download_path":"/com.bomding.anderson/downloads/",
+  "versionCode":4,
+  "suitableVersion":100,
+  "updateMessage":"1. test retry download and resume download process."
+ }]
+}
