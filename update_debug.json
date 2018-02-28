@@ -3,5 +3,5 @@
   "bundle":"com.bomding.anderson",
   "download_path":"/com.bomding.anderson/downloads/",
   "versionCode":4,
-  "updateMessage":"1. fix wifi bug. 2. show battery level."
+  "updateMessage":"1. test retry download and resume download process."
 }
