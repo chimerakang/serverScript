@@ -1,5 +1,13 @@
 [
     {
+        "url": "https://hk.baldur.vip:29006/app/i_qKdZRiR.apk",
+        "bundle": "com.bomding.anderson",
+        "download_path": "/com.bomding.anderson/downloads/",
+        "versionCode": 4,
+        "suitableVersion": 3,
+        "updateMessage": " support asset bundle download."
+    },
+    {
         "url": "https://hk.baldur.vip:29006/app/wuWehJezg.apk",
         "bundle": "com.bomding.anderson",
         "download_path": "/com.bomding.anderson/downloads/",
