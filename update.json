@@ -3,16 +3,9 @@
         "bundle": "com.bomding.anderson",
         "download_path": "/com.bomding.anderson/downloads/",
         "versionCode": 9,
-        "suitableVersion": 2,
+        "suitableVersion": 1,
         "updateMessage": "更新说明 : 版本 1.1.10\n
 1.新增生活美语课程：【客房服务】、【餐车饮食】\n
 2.WiFi联机问题修正\n
 3.UI优化\n"
-    },
-{
-  "url":"https://hk.baldur.vip:29006/app/SOzR8S3kg.apk",
-  "bundle":"com.bomding.anderson",
-  "download_path":"/com.bomding.anderson/downloads/",
-  "versionCode":2,
-  "updateMessage":"1. fix wifi bug. 2. show battery level."
-}
+    }
