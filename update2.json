@@ -3,6 +3,16 @@
         "url": "https://hk.baldur.vip:29006/app/ZRI9jm5mg.apk",
         "bundle": "com.bomding.anderson",
         "download_path": "/com.bomding.anderson/downloads/",
+        "versionCode": 16,
+        "suitableVersion": 15,
+        "updateMessage": "更新说明 : 版本 1.2.16\n
+1.新增词汇课\n
+2.修正bugs\n"
+    },    
+    {
+        "url": "https://hk.baldur.vip:29006/app/ZRI9jm5mg.apk",
+        "bundle": "com.bomding.anderson",
+        "download_path": "/com.bomding.anderson/downloads/",
         "versionCode": 15,
         "suitableVersion": 10,
         "updateMessage": "更新说明 : 版本 1.2.15\n
