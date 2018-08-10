@@ -1,11 +1,10 @@
 {
-        "url": "https://hk.baldur.vip:29006/app/J9beXlgmg.apk",
+"url": "https://hk.baldur.vip:29006/app/ErmP7f5mg.apk",
         "bundle": "com.bomding.anderson",
         "download_path": "/com.bomding.anderson/downloads/",
-        "versionCode": 9,
+        "versionCode": 16,
         "suitableVersion": 1,
-        "updateMessage": "更新说明 : 版本 1.1.10\n
-1.新增生活美语课程：【客房服务】、【餐车饮食】\n
-2.WiFi联机问题修正\n
-3.UI优化\n"
+        "updateMessage": "更新说明 : 版本 1.2.16\n
+1.新增词汇课\n
+2.修正bugs\n"
     }
