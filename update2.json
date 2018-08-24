@@ -3,6 +3,16 @@
         "url": "https://hk.baldur.vip:29006/app/ErmP7f5mg.apk",
         "bundle": "com.bomding.anderson",
         "download_path": "/com.bomding.anderson/downloads/",
+        "versionCode": 17,
+        "suitableVersion": 16,
+        "updateMessage": "更新说明 : 版本 1.2.17\n
+1.新增音标课-元音\n
+2.修正bugs\n"
+    },    
+    {
+        "url": "https://hk.baldur.vip:29006/app/ErmP7f5mg.apk",
+        "bundle": "com.bomding.anderson",
+        "download_path": "/com.bomding.anderson/downloads/",
         "versionCode": 16,
         "suitableVersion": 10,
         "updateMessage": "更新说明 : 版本 1.2.16\n
