@@ -4,7 +4,7 @@
         "bundle": "com.bomding.anderson",
         "download_path": "/com.bomding.anderson/downloads/",
         "versionCode": 18,
-        "suitableVersion": 16,
+        "suitableVersion": 3,
         "updateMessage": "更新说明 : 版本 1.2.18\n
 1.新增音标课-辅音\n
 2.修正bug\n"
